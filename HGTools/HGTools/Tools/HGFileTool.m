@@ -20,9 +20,9 @@
     // 正则
     NSRegularExpression *exp = regex ? [NSRegularExpression regularExpressionWithPattern:regex options:NSRegularExpressionCaseInsensitive error:nil] : nil;
     
-    
+#warning 打开这行注释 写下你的桌面路径即可
     // 桌面路径
-    NSString* dirString = @"/Users/zhuhong/Desktop/Tools";
+    // NSString* dirString = @"~/Desktop";
     
     // 文件管理器
     NSFileManager *fileManager = [NSFileManager defaultManager];
